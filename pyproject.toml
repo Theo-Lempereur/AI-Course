@@ -1,0 +1,25 @@
+[project]
+name = "ai-course"
+version = "0.1.0"
+description = "Environnement Python pour les TP d'intelligence artificielle JUNIA M1."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "jupyter",
+    "jupyterlab",
+    "notebook",
+    "ipykernel",
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "scikit-learn",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "nbstripout>=0.9.1",
+]
