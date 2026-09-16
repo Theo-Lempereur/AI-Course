@@ -1,7 +1,13 @@
 .venv/
+.venv-broken/
+.uv-python/
 .uv-cache/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .jupyter-runtime/
+.jupyter-config/
+.jupyter-data/
+.ipython/
+.matplotlib-*/
 .env

@@ -23,6 +23,16 @@ Les dépendances sont installées dans **`.venv`**, propre à ce dossier :
 TensorFlow et Keras sont cités comme exemples dans le PDF, mais ne sont pas
 nécessaires à ce premier setup. Ils pourront être ajoutés si un TP les demande.
 
+## TP ajoutés
+
+- `notebooks/01_cours.ipynb` : régression linéaire sur le CSV du professeur.
+- `notebooks/College Admission Labwork.ipynb` : classification des admissions,
+  avec données d'entraînement et de test.
+- `notebooks/IRIS Decision Tree.ipynb` : arbre de décision et forêt aléatoire sur
+  le jeu Iris intégré à scikit-learn.
+
+Les correspondances entre notebooks et CSV sont rappelées dans `data/README.md`.
+
 ## Lancer depuis le terminal (PowerShell)
 
 Ouvre PowerShell puis lance :
