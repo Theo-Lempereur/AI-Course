@@ -19,15 +19,17 @@ Les dépendances sont installées dans **`.venv`**, propre à ce dossier :
 | SciPy | Calcul scientifique |
 | Matplotlib | Graphiques |
 | scikit-learn | Algorithmes de machine learning |
-
-TensorFlow et Keras sont cités comme exemples dans le PDF, mais ne sont pas
-nécessaires à ce premier setup. Ils pourront être ajoutés si un TP les demande.
+| TensorFlow / Keras | Réseaux de neurones (TP « NN ») |
 
 ## TP ajoutés
 
 - `notebooks/01_cours.ipynb` : régression linéaire sur le CSV du professeur.
 - `notebooks/College Admission Labwork.ipynb` : classification des admissions,
   avec données d'entraînement et de test.
+- `notebooks/NN-Exercises - Homwork 2.ipynb` : homework réseaux de neurones
+  (sinus, binaire → décimal, 16 clusters, spirales). Ce notebook est commité
+  avec ses sorties (`keep_output` dans ses métadonnées) ; l'animation est dans
+  `notebooks/img/spiral_training.gif`.
 - `notebooks/IRIS Decision Tree.ipynb` : arbre de décision et forêt aléatoire sur
   le jeu Iris intégré à scikit-learn.
 
